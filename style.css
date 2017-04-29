@@ -2,12 +2,12 @@
 {
   body
   {
-    min-width: 800px;
+    min-width: 900px;
   }
 
   .container, .container-responsive
   {
-    max-width: 800px;
+    max-width: 900px;
   }
 
   /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
@@ -41,5 +41,18 @@
   .container-responsive .site-header-menu .site-header-actions .header-search{
     margin-right: initial;
     float: initial;
+  }
+
+  /* 
+    serif is more readable as long form 
+    slightly larger font to reduce need for zooming
+    reducing padding because why not 
+  */
+  .markdown-body{
+    font-family: serif;
+    font-size: 18px;
+  }
+  .file .readme .markdown-body{
+    padding: 28px;
   }
 }
