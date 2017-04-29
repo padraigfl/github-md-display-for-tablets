@@ -1,5 +1,7 @@
 @-moz-document regexp('https://github\\.com/\.*/\.*/blob\.*/.*\\.md')
 {
+  /* RegEx is chrome is https?://github\.com/(.*)/(.*)/blob(.*).md */
+
   body
   {
     min-width: 900px;
