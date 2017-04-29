@@ -1,4 +1,4 @@
-I was unable to access the mobile version of the site so reading .md files on the site was a misery on my 9 inch HD tablet. Very simple CSS at the moment to do the job I need right now which exclusively works on pages for `.md` files, this is for use with the stylish add on but I'm sure it can be put on any CSS overloader
+I was unable to access the mobile version of the site so reading .md files on the site was a misery on my 9 inch HD tablet. Very simple CSS at the moment to do the job I need right now which exclusively works on pages for `.md` files, this is for use with the stylish browser extension ([as linked here](https://userstyles.org/styles/141939/github-md-display-for-tablets)) but I'm sure it can be put on any CSS overloader
 
 ### Things to improve:
 - Text may still be too small for some at current level, or it may be too narrow
