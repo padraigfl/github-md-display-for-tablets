@@ -21,7 +21,7 @@
   }
   .container-responsive .header-logo-invertocat .octicon-mark-github{
     float: initial;
-    margin: 8 auto;
+    margin: 0 auto;
   }
   .container-responsive .site-header-menu{
     text-align: center; 
