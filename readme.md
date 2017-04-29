@@ -5,6 +5,6 @@ I was unable to access the mobile version of the site so reading .md files on th
 - No sideways scrolling required at any reasonable zoom level
 - Replace fixed pixel values with something more flexible
 - Multiple branches to suit various screen widths and resolutions
-
+- More clearly specify the code that is being overwritten
 
 _This was designed for a Nook HD+ (9 inches, 1920x1280) to be able to read some eBooks stored on Github in markdown, so choices are mostly being made to fit that consideration_
