@@ -1,0 +1,12 @@
+@-moz-document regexp('https://github\\.com/\.*/\.*/blob\.*/.*\\.md')
+{
+  body
+  {
+    min-width: 400px;
+  }
+
+  .container
+  {
+    max-width: 600px;
+  }
+}
