@@ -5,8 +5,38 @@
     min-width: 400px;
   }
 
-  .container
+  .container,.container-responsive
   {
     max-width: 600px;
+  }
+
+  /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
+  .container-responsive .header-logo-invertocat{
+    margin: 0 auto;
+    position: relative;
+    float: initial;
+  }
+  .container-responsive .header-logo-invertocat .octicon-mark-github{
+    float: initial;
+    margin: 8 auto;
+  }
+  .container-responsive .site-header-menu{
+    text-align: center; 
+  }
+  .container-responsive .site-header-menu .site-header-nav{
+    float: initial;
+    margin: 0;
+  }
+  .container-responsive .site-header-menu .site-header-nav .nav-item{
+    float: initial;
+  }
+  .container-responsive .site-header-menu .site-header-actions{
+    display: inline-block;
+    float: initial;
+    text-align: center;
+  }
+  .container-responsive .site-header-menu .site-header-actions .header-search{
+    margin-right: initial;
+    float: initial;
   }
 }
