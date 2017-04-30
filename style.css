@@ -3,12 +3,12 @@
   /* RegEx is chrome is https?://github\.com/(.*)/(.*)/blob(.*).md */
   body
   {
-    width: 1200px;
+    width: 1280px;
   }
 
   .container, .container-responsive
   {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 
   /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
@@ -50,8 +50,8 @@
     reducing padding because why not 
   */
   .markdown-body{
-    font-family: serif;
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 22px;
   }
   .file .readme .markdown-body{
     padding: 28px;
