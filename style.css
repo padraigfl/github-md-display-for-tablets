@@ -1,15 +1,16 @@
 @-moz-document regexp('https://github\\.com/\.*/\.*/blob\.*/.*\\.md')
 {
   /* RegEx is chrome is https?://github\.com/(.*)/(.*)/blob(.*).md */
-
   body
   {
-    min-width: 900px;
+    min-width: 768px;
+    width: 100%;
   }
 
   .container, .container-responsive
   {
-    max-width: 900px;
+    width: 100%;
+    max-width: 1800px;
   }
 
   /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
@@ -51,8 +52,8 @@
     reducing padding because why not 
   */
   .markdown-body{
-    font-family: serif;
-    font-size: 18px;
+    font-family: Georgia, serif;
+    font-size: 22px;
   }
   .file .readme .markdown-body{
     padding: 28px;
