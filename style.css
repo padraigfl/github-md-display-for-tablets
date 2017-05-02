@@ -3,14 +3,14 @@
   /* RegEx is chrome is https?://github\.com/(.*)/(.*)/blob(.*).md */
   body
   {
-    min-width: 720px;
+    min-width: 768px;
     width: 100%;
   }
 
   .container, .container-responsive
   {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
   }
 
   /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
@@ -53,7 +53,7 @@
   */
   .markdown-body{
     font-family: Georgia, serif;
-    font-size: 24px;
+    font-size: 22px;
   }
   .file .readme .markdown-body{
     padding: 28px;
