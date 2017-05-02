@@ -8,7 +8,7 @@
 
   .container, .container-responsive
   {
-    max-width: 1280px;
+    width: 1280px;
   }
 
   /* container responsive is used when not logged in, the below styles attempt to tidy up the header some */
